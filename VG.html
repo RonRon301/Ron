@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Gallery - Hong Kong Travel Blog</title>
+    <link rel="stylesheet" href="VG.css">
+</head>
+<body>
+    <header>
+        <h1>Video Gallery</h1>
+    </header>
+    <nav id="mySidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="Main.html">Home</a>
+        <a href="DG.html">Destination Guides</a>
+        <a href="TE.html">Travel Experiences</a>
+        <a href="TE.html">Travel Itineraries</a>
+        <a href="TT.html">Travel Tips</a>
+        <a href="LC.html">Local Cuisine</a>
+        <a href="PS.html">Personal Stories</a>
+        <a href="CS.html">Contact Us</a>
+    </nav>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+    <main>
+        <div class="container">
+            <h2>Explore Hong Kong through Videos</h2>
+            <p>Watch stunning visuals of Hong Kong's attractions, cultural highlights, and experiences!</p>
+            
+            <div class="video-grid">
+                <!-- Video Frames -->
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/U4N0mJAoR64?si=_qB1U_IRsDdonIyh" 
+                            title="Disneyland" frameborder="0" allowfullscreen>
+                    </iframe>
+                    <p><a href="https://www.youtube.com/embed/vhI1PqGeUM8?si=AvYqKRomjgcIF9Rh" target="_blank">Disney</a></p>
+                </div>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/OiZtW6Qd2ys?si=9eyKxzMsWY4_nIuM" 
+                            title="Video Title 2" frameborder="0" allowfullscreen>
+                    </iframe>
+                    <p><a href="https://youtu.be/INSERT_YOUTUBE_ID_2" target="_blank">Big Buddha</a></p>
+                </div>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/1ne2Yh9KcAo?si=Wg-1DtajWC0dRhS-" 
+                            title="Video Title 3" frameborder="0" allowfullscreen>
+                    </iframe>
+                    <p><a href="https://youtu.be/INSERT_YOUTUBE_ID_3" target="_blank">Victoria Harbour</a></p>
+                </div>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/ms_qAZiHgPA?si=18MnMEPHl-nsEnIP" 
+                            title="Video Title 4" frameborder="0" allowfullscreen>
+                    </iframe>
+                    <p><a href="https://youtu.be/INSERT_YOUTUBE_ID_4" target="_blank">Shopping Guide</a></p>
+                </div>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/CgenjHXjvoQ?si=wUQRbwR6vNtDX742" 
+                            title="Video Title 5" frameborder="0" allowfullscreen>
+                    </iframe>
+                    <p><a href="https://youtu.be/INSERT_YOUTUBE_ID_5" target="_blank">Street Food</a></p>
+                </div>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/PJ9PL-GEU4c?si=75JFo1hU5sp_3NyE" 
+                            title="Video Title 6" frameborder="0" allowfullscreen>
+                    </iframe>
+                    <p><a href="https://youtu.be/INSERT_YOUTUBE_ID_6" target="_blank">Hidden Gems</a></p>
+                </div>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/YMpZx1ezzcw?si=BN__B4jhzk3yta7i" 
+                            title="Video Title 7" frameborder="0" allowfullscreen>
+                    </iframe>
+                    <p><a href="https://www.youtube.com/embed/YMpZx1ezzcw?si=BN__B4jhzk3yta7i" target="_blank">Packing Tips</a></p>
+                </div>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/BcNo0FKBzuY?si=FTDd8nC1mv0Sfj6D" 
+                            title="Video Title 8" frameborder="0" allowfullscreen>
+                    </iframe>
+                    <p><a href="https://youtu.be/INSERT_YOUTUBE_ID_8" target="_blank">Travel Guide</a></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Hong Kong Travel Blog. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.left = "0";
+        }
+        function closeNav() {
+            document.getElementById("mySidenav").style.left = "-250px";
+        }
+    </script>
+</body>
+</html>

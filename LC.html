@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Cuisine - Hong Kong</title>
+    <link rel="stylesheet" href="LC.css">
+</head>
+<body>
+    <header>
+        <h1>Local Cuisine of Hong Kong</h1>
+    </header>
+    <nav id="mySidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+         <a href="Main.html">Home</a>
+        <a href="DG.html">Destination Guides</a>
+        <a href="TE.html">Travel Experiences</a>
+        <a href="IT.html">Travel Itineraries</a>
+        <a href="PS.html">Personal Stories</a>
+        <a href="VG.html">Video Gallery</a>
+        <a href="CS.html">Contact Us</a>
+    </nav>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+    <main>
+        <div class="container">
+            <h2>Explore the Flavors of Hong Kong</h2>
+            <div class="cuisine-container">
+                <!-- Dish 1 -->
+                <div class="cuisine-card">
+                    <img src="dim.png" alt="Dim Sum">
+                    <h3>Dim Sum</h3>
+                    <p>A quintessential Hong Kong experience, featuring steamed dumplings, buns, and other small bites served in bamboo baskets.</p>
+                </div>
+                <!-- Dish 2 -->
+                <div class="cuisine-card">
+                    <img src="egg.png" alt="Egg Tarts">
+                    <h3>Egg Tarts</h3>
+                    <p>Flaky pastry filled with sweet egg custard, a popular dessert often found in bakeries across Hong Kong.</p>
+                </div>
+                <!-- Dish 3 -->
+                <div class="cuisine-card">
+                    <img src="won.png" alt="Wonton Noodles">
+                    <h3>Wonton Noodles</h3>
+                    <p>Thin egg noodles served in a flavorful broth, topped with plump shrimp wontons, a must-try comfort dish.</p>
+                </div>
+                <!-- Dish 4 -->
+                <div class="cuisine-card">
+                    <img src="goo.png" alt="Roast Goose">
+                    <h3>Roast Goose</h3>
+                    <p>Crispy-skinned roast goose marinated with secret spices, served with plum sauce.</p>
+                </div>
+                <!-- Dish 5 -->
+                <div class="cuisine-card">
+                    <img src="milk.png" alt="Hong Kong Milk Tea">
+                    <h3>Hong Kong Milk Tea</h3>
+                    <p>A creamy and rich tea made with evaporated milk, a staple beverage in cha chaan tengs (tea restaurants).</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        </main>
+    <footer>
+        <p>&copy; 2024 Hong Kong Travel Blog. All rights reserved.</p>
+    </footer>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.left = "0";
+        }
+        function closeNav() {
+            document.getElementById("mySidenav").style.left = "-250px";
+        }
+    </script>
+</body>
+</html>

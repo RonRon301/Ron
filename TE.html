@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Experiences - Hong Kong</title>
+    <link rel="stylesheet" href="TE.css">
+</head>
+<body>
+    <header>
+        <h1>Hong Kong Travel Experiences</h1>
+    </header>
+    <nav id="mySidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="Main.html">Home</a>
+        <a href="DG.html">Destination Guides</a>
+        <a href="IT.html">Travel Itineraries</a>
+        <a href="TT.html">Travel Tips</a>
+        <a href="LC.html">Local Cuisine</a>
+        <a href="PS.html">Personal Stories</a>
+        <a href="VG.html">Video Gallery</a>
+        <a href="CS.html">Contact Us</a>
+    </nav>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+    <main>
+        <div class="container">
+            <h2>Unique Experiences to Explore in Hong Kong</h2>
+            <div class="experience-container">
+                <!-- Experience 1 -->
+                <div class="experience-card">
+                    <img src="SL.png" alt="Symphony of Lights">
+                    <h3>Symphony of Lights</h3>
+                    <p>Witness the world's largest light and sound show illuminating Victoria Harbour every night.</p>
+                </div>
+                <!-- Experience 2 -->
+                <div class="experience-card">
+                    <img src="DB.png" alt="Dragon Boat Festival">
+                    <h3>Dragon Boat Festival</h3>
+                    <p>Enjoy the thrilling boat races and vibrant festivities during this annual cultural event.</p>
+                </div>
+                <!-- Experience 3 -->
+                <div class="experience-card">
+                    <img src="TS.png" alt="Temple Street Night Market">
+                    <h3>Temple Street Night Market</h3>
+                    <p>Explore the bustling night market filled with food, trinkets, and fortune tellers.</p>
+                </div>
+                <!-- Experience 4 -->
+                <div class="experience-card">
+                    <img src="HIKING.png" alt="Hiking Trails">
+                    <h3>Scenic Hiking Trails</h3>
+                    <p>Embark on breathtaking hikes like Dragon's Back or Tai Mo Shan for stunning views.</p>
+                </div>
+                <!-- Experience 5 -->
+                <div class="experience-card">
+                    <img src="SA.png" alt="Kowloon Street Art">
+                    <h3>Kowloon Street Art</h3>
+                    <p>Discover colorful murals and graffiti in the hidden alleys of Kowloon.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Hong Kong Travel Blog. All rights reserved.</p>
+    </footer>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.left = "0";
+        }
+        function closeNav() {
+            document.getElementById("mySidenav").style.left = "-250px";
+        }
+    </script>
+</body>
+</html>

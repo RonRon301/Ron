@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Tips - Hong Kong</title>
+    <link rel="stylesheet" href="TT.css">
+</head>
+<body>
+    <header>
+        <h1>Travel Tips for Visiting Hong Kong</h1>
+    </header>
+    <nav id="mySidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="Main.html">Home</a>
+        <a href="DG.html">Destination Guides</a>
+        <a href="TE.html">Travel Experiences</a>
+        <a href="TI.html">Travel Itineraries</a>
+        <a href="LC.html">Local Cuisine</a>
+        <a href="PS.html">Personal Stories</a>
+        <a href="VG.html">Video Gallery</a>
+        <a href="CS.html">Contact Us</a>
+    </nav>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+
+    <main>
+        <div class="container">
+            <h2>Essential Tips for Your Hong Kong Trip</h2>
+            <div class="tips-container">
+                <!-- Tip 1 -->
+                <div class="tip-card">
+                    <img src="bag.png" alt="Packing Tips">
+                    <h3>Packing Essentials</h3>
+                    <p>Carry lightweight clothing, comfortable shoes, and a raincoat as Hong Kong can be humid and rainy.</p>
+                </div>
+                <!-- Tip 2 -->
+                <div class="tip-card">
+                    <img src="card.png" alt="Octopus Card">
+                    <h3>Use an Octopus Card</h3>
+                    <p>The Octopus Card is a convenient way to pay for public transport, convenience stores, and more.</p>
+                </div>
+                <!-- Tip 3 -->
+                <div class="tip-card">
+                    <img src="wifi.png" alt="SIM Card">
+                    <h3>Stay Connected</h3>
+                    <p>Buy a local SIM card or portable Wi-Fi device for affordable and reliable internet access.</p>
+                </div>
+                <!-- Tip 4 -->
+                <div class="tip-card">
+                    <img src="pip.png" alt="Cultural Etiquette">
+                    <h3>Learn Basic Etiquette</h3>
+                    <p>Be respectful in temples, avoid loud conversations, and familiarize yourself with basic Cantonese phrases.</p>
+                </div>
+                <!-- Tip 5 -->
+                <div class="tip-card">
+                    <img src="transpo.png" alt="Public Transport">
+                    <h3>Public Transportation</h3>
+                    <p>Use the MTR, buses, and trams for efficient and affordable travel around the city.</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Hong Kong Travel Blog. All rights reserved.</p>
+    </footer>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.left = "0";
+        }
+        function closeNav() {
+            document.getElementById("mySidenav").style.left = "-250px";
+        }
+    </script>
+</body>
+</html>

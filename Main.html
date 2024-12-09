@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hong Kong Travel Blog</title>
+    <link rel="stylesheet" href="V1.css">
+</head>
+<body>
+    <header>
+        <h1>Explore Hong Kong</h1>
+    </header>
+    <nav id="mySidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="DG.html">Destination Guides</a>
+        <a href="TE.html">Travel Experiences</a>
+        <a href="IT.html">Travel Itineraries</a>
+        <a href="TT.html">Travel Tips</a>
+        <a href="LC.html">Local Cuisine</a>
+        <a href="PS.html">Personal Stories</a>
+        <a href="VG.html">Video Gallery</a>
+        <a href="CS.html">Contact Us</a>
+    
+    </nav>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+    <main>
+        <div class="container">
+            <h2>Welcome to the Hong Kong Travel Blog!</h2>
+            <p>Explore the vibrant streets, cultural landmarks, and culinary delights of Hong Kong. Dive into our guides and itineraries to plan your perfect adventure.<p>
+
+            <div class="slider">
+                <img src="HK.jpg" alt="Hong Kong View">
+            </div>
+            <section class="comments">
+                <h3>Leave a Comment</h3>
+                <textarea placeholder="Share your thoughts..."></textarea>
+                <button>Submit</button>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Hong Kong Travel Blog. All rights reserved.</p>
+    </footer>
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.left = "0";
+        }
+        function closeNav() {
+            document.getElementById("mySidenav").style.left = "-250px";
+        }
+    </script>
+</body>
+</html>
